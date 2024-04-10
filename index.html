@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Calculator</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <header>
+                <h2>CALCULATE QUADRATIC EQUATION</h2>
+                <h4>a(x^2) + bx + c</h4>
+            </header>
+            <div id="container">
+                <label>A :
+                    <input type="number" placeholder="Enter variable 'a' " id="a" />
+                </label>
+                <label>B :
+                    <input type="number" placeholder="Enter variable 'b' " id="b" />
+                </label>
+                <label>C :
+                    <input type="number" placeholder="Enter variable 'c' " id="c" />
+                </label>
+                <button id="calcQuadEqu">Calculate Quadratic Equation</button>
+                <div id="result"></div>
+            </div>
+        </section>
+        <section>
+            <label for="equation">Enter the quadratic equation:</label>
+            <input type="text" id="equation" placeholder="e.g., x^2 + 4x - 5 = 0">
+            <button id="calculate">Calculate</button>
+            <div id="answer"></div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
